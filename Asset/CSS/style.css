@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+header{
+    display: flex;
+    background-color: rgb(120, 120, 120);
+    height: 60px;
+    position: relative;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 25px;
+  
+}
+
+nav{
+    position: absolute;
+    display: flex;
+   justify-content: flex-end;
+   gap: 40px;
+  
+   right: 15%;
+  
+}
+
+.container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+h2{
+    padding-top: 20px ;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.paris{
+
+    height: 550px;
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.612);
+}
+.parisimg{
+    background-image: url(../Images/paris.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:60% ;
+}
+
+
+.paristxt{
+    margin-left: 10px;
+}
+
+.btn-paris{
+    
+   
+    text-align: center;
+    margin: 30px;
+   
+}
+.btn-paris a{
+    background-color: rgb(132, 0, 132);
+    padding: 10px;
+}
+
+.tokyo{
+    height: 550px;
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.612);
+}    
+
+.tokyoimg{
+    background-image: url(../Images/tokyo.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:60% ;
+}
+
+.tokyotxt{
+    margin-left: 10px;
+}
+
+.btn-tokyo{
+    
+   
+    text-align: center;
+    margin: 30px;
+   
+}
+.btn-tokyo a{
+    background-color: rgb(230, 105, 33);
+    padding: 10px;
+}
+
+.newyork{
+    height: 550px;
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.612);
+}    
+
+.newyorkimg{
+    background-image: url(../Images/new-york.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:60% ;
+}
+
+.newyorktxt{
+    margin-left: 10px;
+}
+
+.btn-newyork{
+    
+   
+    text-align: center;
+    margin: 30px;
+   
+}
+.btn-newyork a{
+    background-color: rgb(88, 113, 215);
+    padding: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .newyork{
+        margin-top: 40px;
+    }
+ 
+}
+
+@media screen and (max-width: 800px) {
+    .tokyo{
+        margin-top: 40px;
+    }
+ 
+}
+
+@media screen and (max-width: 425px) {
+  
+    nav{
+        gap: 20px;
+
+    }
+ 
+}
