@@ -13,6 +13,10 @@ a{
     color: white;
 }
 
+header a:hover{
+    color: black;
+}
+
 
 header{
     display: flex;
@@ -86,6 +90,10 @@ p{
     padding: 10px;
 }
 
+.btn-paris a:hover{
+    background-color: rgba(132, 0, 132, 0.5);
+}
+
 .tokyo{
     height: 550px;
     width: 400px;
@@ -117,6 +125,12 @@ p{
     padding: 10px;
 }
 
+.btn-tokyo a:hover{
+    background-color: rgba(230, 105, 33, 0.6);
+}
+
+
+
 .newyork{
     height: 550px;
     width: 400px;
@@ -147,6 +161,13 @@ p{
     background-color: rgb(88, 113, 215);
     padding: 10px;
 }
+
+.btn-newyork a:hover{
+    background-color: rgba(88, 113, 215, 0.615);
+
+}
+
+
 
 @media screen and (max-width: 1200px) {
     .newyork{
